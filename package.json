@@ -1,0 +1,11 @@
+{
+  "name": "int20h2020",
+  "version": "1.0.0",
+  "description": "For hakaton int20h 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
