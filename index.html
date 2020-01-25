@@ -44,11 +44,11 @@
             </div> -->
             <div class="methodSearch col-12 col-sm-12 col-md-4 col-lg-4 text-center">
                <h3>Поиск песни по ее напеванию</h3>  
-               <button class="searchBtn btnsort">Поиск</button> 
+               <button class="searchBtn btnsort" id="record2">Запись</button> 
             </div>
             <div class="methodSearch col-12 col-sm-12 col-md-4 col-lg-4 text-center">
                <h3>Поиск песни по ее проигрыванию</h3>
-               <button class="searchBtn btnsort">Поиск</button>   
+               <button class="searchBtn btnsort" id="record3">Запись</button>
             </div>
          </div>
          <div class="result">
@@ -60,7 +60,7 @@
             </div>
             <div class="">
                <div class="sound text-center">
-                  <audio controls>
+                  <audio controls id="recordedAudio">
                      <source src="" id="sourcemp3">
                      <source src="" id="sourceogg">
                      <source src="" id="sourcewav">
@@ -91,7 +91,8 @@
          </footer>
       </div>
    </div>
-
+   <!-- <script src="plugins/Mp3LameEncoder.min.js"></script> -->
+   <script src="plugins/WebAudioRecorderMp3.min.js"></script>
    <script src="js/INT20H.js"></script>
    <!-- <script src="plugins/p5peechs.js"></script> -->
 </body>
